@@ -1,4 +1,5 @@
-![Distribution plot]([ChatGPT Image Apr 12, 2025, 01_26_58 PM.png](https://github.com/benjaminlaeuchli/Classify-Breast-Cancer/blob/d6e6dd6659cddcda006d587bc9cc472461f9c9d9/ChatGPT%20Image%20Apr%2012%2C%202025%2C%2001_26_58%20PM.png))
+![Distribution plot](./ChatGPT%20Image%20Apr%2012%2C%202025%2C%2001_26_58%20PM.png)
+
 
 # Breast Cancer Classification with k-Nearest Neighbors (kNN)
 
