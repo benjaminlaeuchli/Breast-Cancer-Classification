@@ -1,4 +1,4 @@
-![Distribution plot](What-is-cancer-for-kids-animated.png-768x471.webp)
+![Distribution plot](ChatGPT Image Apr 12, 2025, 01_26_58 PM.png)
 # Breast Cancer Classification with k-Nearest Neighbors (kNN)
 
 In this project, I built a machine learning model to classify breast cancer tumor samples as either **benign** or **malignant**. The goal is to explore how kNN can help automate this process and optimize the model’s performance. By tuning the hyperparameters and improving accuracy, this work contributes to the potential of machine learning in healthcare.
