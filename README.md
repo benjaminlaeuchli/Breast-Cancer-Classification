@@ -47,7 +47,7 @@ In **Part 2**, I optimized the kNN classifier by using grid search to explore:
 
 - The number of neighbors (n_neighbors).
 - How the neighbors are weighted (uniform vs distance).
-- Additionally, in Part 3, I compared three models: kNN, Logistic Regression, and Random Forest.
+Additionally, in **Part 3**, I compared three models: kNN, Logistic Regression, and Random Forest.
 
 After evaluating the models, Random Forest was identified as the best model, with the highest recall for malignant tumor detection. It also outperformed kNN and Logistic Regression in terms of accuracy and precision. The best Random Forest model was used to predict tumor malignancy in the aim dataset, even when the class label was missing. These predictions were stored in the class_pred column.
 
