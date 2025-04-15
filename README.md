@@ -15,6 +15,7 @@ In Part 2, I take the model from Part 1 and optimize it using **grid search**. B
 
 ### Part 3: Classification of Breast Cancer Cell Samples with kNN, Logistic Regression, and Random Forest
 In Part 3, I compare the performance of three supervised machine learning algorithms—k-Nearest Neighbors (kNN), Logistic Regression, and Random Forest—for classifying breast cancer cell samples as benign or malignant. The objective is to identify the model that best detects malignant tumors with a high recall rate, as this is critical in a medical diagnostic context. I preprocess and train the models using the provided training data, evaluate their performance on a separate test dataset, and finally apply the best-performing classifier to predict the tumor types in an unseen target dataset.
+
 ---
 
 **Key Highlights**
