@@ -16,6 +16,10 @@ In Part 2, I take the model from Part 1 and optimize it using **grid search**. B
 ### Part 3: Classification of Breast Cancer Cell Samples with kNN, Logistic Regression, and Random Forest
 In Part 3, I compare the performance of three supervised machine learning algorithms — **k-Nearest Neighbors (kNN)**, **Logistic Regression**, and **Random Forest** — for classifying breast cancer cell samples as benign or malignant. The objective is to identify the model that best detects malignant tumors with a high recall rate, as this is critical in a medical diagnostic context. I preprocess and train the models using the provided training data, evaluate their performance on a separate test dataset, and finally apply the best-performing classifier to predict the tumor types in an unseen target dataset.
 
+### Part 4: Modeling and Evaluation of a Deep Feedforward Artificial Neural Network (ANN)
+In Part 4, I instantiating a deep feedforward artificial neural network (ANN) using TensorFlow/Keras. The model contains five hidden layers, each with 50 artificial neurons, and an output layer with a single neuron for binary classification (benign or malignant). Regularization is applied with a 30% dropout rate to prevent overfitting. The model is trained, and learning curves are plotted to visualize performance.
+Additionally, early stopping is implemented to halt training if the model’s performance does not improve after two epochs, thereby reducing the risk of overfitting. The results are compared between the regularized model (with dropout) and the early-stopped model, revealing that both models achieved the same validation accuracy of 0.9816, suggesting both approaches are effective in preventing overfitting and performing well on unseen data.
+
 ---
 
 **Key Highlights**
@@ -45,11 +49,13 @@ The dataset includes various features related to tumor cell characteristics, suc
 **Model Optimization & Insights**
 In **Part 2**, I optimized the kNN classifier by using grid search to explore:
 
-- The number of neighbors (n_neighbors).
-- How the neighbors are weighted (uniform vs distance).
-Additionally, in **Part 3**, I compared three models: kNN, Logistic Regression, and Random Forest.
+The number of neighbors (n_neighbors).
 
-After evaluating the models, Random Forest was identified as the best model, with the highest recall for malignant tumor detection. It also outperformed kNN and Logistic Regression in terms of accuracy and precision. The best Random Forest model was used to predict tumor malignancy in the aim dataset, even when the class label was missing. These predictions were stored in the class_pred column.
+How the neighbors are weighted (uniform vs distance).
+
+**Part 3** involved comparing three models: kNN, Logistic Regression, and Random Forest. After evaluating the models, Random Forest was identified as the best model, with the highest recall for malignant tumor detection. It also outperformed kNN and Logistic Regression in terms of accuracy and precision. The best Random Forest model was used to predict tumor malignancy in the aim dataset, even when the class label was missing. These predictions were stored in the class_pred column.
+
+In **Part 4**, a deep feedforward ANN was evaluated with dropout regularization and early stopping. The results show that both methods effectively prevented overfitting, with an identical validation accuracy of 0.9816.
 
 **How It Works**
 
