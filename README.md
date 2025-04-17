@@ -1,7 +1,7 @@
 ![Distribution plot](./ChatGPT%20Image%20Apr%2012%2C%202025%2C%2001_26_58%20PM.png)
 
 
-# Breast Cancer Classification with machine learning models
+# Breast Cancer Classification with Machine Learning Models
 
 In this project, I built a machine learning model to classify breast cancer tumor samples as either **benign** or **malignant**. The goal is to explore how machine learning can help automate this process and optimize the model’s performance. By tuning the hyperparameters and improving accuracy, this work contributes to the potential of machine learning in healthcare.
 
